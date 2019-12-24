@@ -7,10 +7,10 @@ import java.io.Serializable;
  */
 public class Room implements Serializable{
 
-    private Integer roomId;
-    private String roomType;
-    private Integer price;
-    private String roomState;
+    private Integer roomId;   //房间号码
+    private String roomType;  //房间类型
+    private Integer price;    //房间单价
+    private String roomState; //房间状态
 
     public Integer getRoomId() {
         return roomId;
