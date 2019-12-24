@@ -11,7 +11,7 @@ public class CheckIn implements Serializable{
     private Integer cid;
     private String name;
     private Date checkinTime;
-    private Integer num;
+    private Integer num; //住宿天数
     private String state;
     private Room room;
 
