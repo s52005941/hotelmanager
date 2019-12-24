@@ -13,7 +13,7 @@ public class CheckIn implements Serializable{
     private Date checkinTime;
     private Integer num; //住宿天数
     private String state;
-    private Room room;
+    private Room room; //对应房间号
 
     public Integer getCid() {
         return cid;
